@@ -3,23 +3,23 @@
 This is the error provided.
 
 ```
-**Server Error**
+Server Error
 
 ReferenceError: document is not defined
 
-*This error happened while generating the page. Any console logs will be displayed in the terminal window.*
+This error happened while generating the page. Any console logs will be displayed in the terminal window.
 
 Call Stack
 
-\<unknown>
+<unknown>
 
 file:/D:/Development/mathlive-document-not-defined/node_modules/mathlive/dist/mathlive.min.js (2:920275)
 
-\<unknown>
+<unknown>
 
 file:/D:/Development/mathlive-document-not-defined/node_modules/mathlive/dist/mathlive.min.js (2:69)
 
-Object.\<anonymous>
+Object.<anonymous>
 
 file:/D:/Development/mathlive-document-not-defined/node_modules/mathlive/dist/mathlive.min.js (2:209)
 
