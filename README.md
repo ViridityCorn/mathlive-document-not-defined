@@ -52,6 +52,7 @@ file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (
 - Replace default `index.js` with new `index.js` containing a simple component returning only a div.
 - Install MathLive using `npm install --save mathlive`
 - Add `import { MathLiveComponent } from "mathlive";` at the top of `index.js`
+- The NextJs server can be started using `npm run dev` and the error will occur.
 
 ## Test machine
 - This error was observed on a Windows 11 machine.
