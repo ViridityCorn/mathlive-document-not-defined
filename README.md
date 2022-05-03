@@ -45,7 +45,7 @@ Object.mathlive
 file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (32:18)
 ```
 
-## Steps to reproduce (and steps taking in this project)
+## Steps taken to produce this project (and to reproduce the error from scratch)
 - Create new project using `npx create-next-app@latest`
 	- Press `y` when asked to install the package
 	- Provide name for project
@@ -53,7 +53,9 @@ file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (
 - Install MathLive using `npm install --save mathlive`
 - Add `import { MathLiveComponent } from "mathlive";` at the top of `index.js`
 - The NextJs server can be started using `npm run dev` and the error will occur.
-
+### To reproduce the error on your machine after cloning the project
+- Run `npm install`
+- Run `npm run dev`
 ## Test machine
 - This error was observed on a Windows 11 machine.
 - The code is written in Visual Studio Code.
