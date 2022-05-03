@@ -65,3 +65,22 @@ file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (
 
 ## More information necessary
 If more information is necessary, please contact the me [here](https://gitter.im/cortex-js/community) or by creating an issue in this repository.
+
+# Testcase for NextJS and MathLive css error
+This same repo can be used for recreating a different error.
+When using either [React-MathLive](https://github.com/concludio/react-mathlive) or [React-MathLive-View](https://github.com/arnog/react-mathlive) the following error occurs:
+
+```
+Failed to compile
+
+./node_modules/mathlive/dist/mathlive-fonts.css
+Global CSS cannot be imported from within node_modules.
+Read more: https://nextjs.org/docs/messages/css-npm
+Location: node_modules\react-math-view\dist\index.modern.js
+
+This error occurred during the build process and can only be dismissed by fixing the error.
+```
+## To reproduce
+- After cloning the repository, run `npm install`
+- Rename the current `index.js` to something else, and rename `index-react.js` to `index.js`
+- Run `npm run dev`
