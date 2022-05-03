@@ -52,3 +52,11 @@ file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (
 - Replace default `index.js` with new `index.js` containing a simple component returning only a div.
 - Install MathLive using `npm install --save mathlive`
 - Add `import { MathLiveComponent } from "mathlive";` at the top of `index.js`
+
+## Test machine
+- This error was observed on a Windows 11 machine.
+- The code is written in Visual Studio Code.
+- The website was tested in Firefox Developer Edition.
+
+## More information necessary
+If more information is necessary, please contact the me [here](https://gitter.im/cortex-js/community) or by creating an issue in this repository.
