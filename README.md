@@ -58,6 +58,8 @@ file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (
 - This error was observed on a Windows 11 machine.
 - The code is written in Visual Studio Code.
 - The website was tested in Firefox Developer Edition.
+- The used NextJs version is 12.1.6.
+- The used version of React and ReactDom is 18.1.0.
 
 ## More information necessary
 If more information is necessary, please contact the me [here](https://gitter.im/cortex-js/community) or by creating an issue in this repository.
