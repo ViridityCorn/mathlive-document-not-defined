@@ -1,7 +1,8 @@
 # Testcase of "Document is not defined"-error using MathLive and NextJs
 ## The Error
 This is the error provided.
-------
+
+```
 **Server Error**
 
 ReferenceError: document is not defined
@@ -42,8 +43,7 @@ node:internal/modules/cjs/helpers (102:18)
 
 Object.mathlive
 file:/D:/Development/mathlive-document-not-defined/.next/server/pages/index.js (32:18)
-
-------
+```
 
 ## Steps to reproduce (and steps taking in this project)
 - Create new project using `npx create-next-app@latest`
